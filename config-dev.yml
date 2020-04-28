@@ -1,0 +1,23 @@
+﻿
+#app index
+#dev 开发环境
+app.index.EQUIPMENTCOUNT=4
+app.index.NEWSCOUNT=10
+app.index.EXPERTCOUNT=10
+
+
+druid.driver=com.mysql.cj.jdbc.Driver
+druid.url=jdbc:mysql://47.100.122.174:3306/yuhuan_v2?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+druid.username=root
+druid.password=6MfRm#7BOY
+druid.init-size=1
+druid.min-idel=1
+druid.max-active=5
+
+#swagger switch
+swagger.enable=true
+
+aliyun.oss.bucketName=yuhuantest
+aliyun.oss.urlPrefix=https://yuhuantest.oss-cn-shanghai.aliyuncs.com/
+
+agora.appid=c5eb2b96a07c4e7aa9e335150de7db70
